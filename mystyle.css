@@ -121,7 +121,14 @@ label
     color: #333;
 }
 
+.required
+{
+    color: red;
+}
+
 input[type="text"],
+input[type="email"],
+input[type="date"],
 select,
 button[type="submit"]
 {
