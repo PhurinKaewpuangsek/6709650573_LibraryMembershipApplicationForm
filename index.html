@@ -21,5 +21,24 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
+
+    <form>
+        <!-- Full Name in Thai and English language-->
+        <label for="fullNameTH">ชื่อ-นามสกุล (ภาษาไทย) <span class="required">*</span></label>
+        <input type="text" id="fullNameTH" name="fullNameTH" required placeholder="กรอกชื่อ-นามสกุล (ภาษาไทย)">
+
+        <label for="fullNameEN">Full Name (English) <span class="required">*</span></label>
+        <input type="text" id="fullNameEN" name="fullNameEN" required placeholder="กรอกชื่อ-นามสกุล (ภาษาอังกฤษ)">
+
+        <!-- Gender -->
+        <label>เพศ <span class="required">*</span></label>
+        <select id="gender" name="gender" required>
+            <option value="">เลือกเพศ</option>
+            <option value="male">ชาย</option>
+            <option value="female">หญิง</option>
+            <option value="other">อื่น ๆ</option>
+        </select>
+
+    </form>
 </body>
 </html>
