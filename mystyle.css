@@ -141,3 +141,40 @@ button[type="submit"]
     box-sizing: border-box;
     font-size: 1em;
 }
+
+input[type="radio"]
+{
+    margin-right: 5px;
+}
+
+label[for="subscribeYes"],
+label[for="subscribeNo"]
+{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+button[type="submit"]
+{
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button[type="submit"]:hover
+{
+    background-color: #45a049;
+}
+
+.form-group
+{
+    margin-bottom: 1rem;
+}
+
+select[multiple]
+{
+    height: 100px;
+}
